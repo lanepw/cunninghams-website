@@ -1,0 +1,181 @@
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.hero {
+	height: 250px;
+	background-color: #28948e;
+	background-size: cover;
+	}
+
+.logo {
+	height: 20px;
+	margin-top: 10px;
+	background-color: #28948e;
+}
+
+.menu-dinner {
+	background: white;
+	background-size: contain;
+}
+
+}
+.menu-bar {
+	background: azure;
+}
+
+.menu-dessert {
+	background: white;
+}
+.gallery,
+.gallery-dinner {
+	background-size: cover;
+	overflow: hidden;
+	background: white;
+}
+
+.photobanner {
+	height: 700px;
+	width: 3550px;
+	margin: 0px;
+}
+
+.footer {
+	height: 200px;
+	background: #28948e;
+	background-size: cover;
+}
+
+.infobar {
+  margin-top: 180px;
+  margin-left: 0px;
+	margin-right: 70px;
+	font-style: italic;
+	text-transform: uppercase;
+	font-weight: lighter;
+}
+
+.gallery-dinner {
+  background-size: auto;
+	margin-top: 0px;
+
+}
+
+.gallery-heading {
+	font-size: 45px;
+	color: #28948e;
+	font-weight: lighter;
+	margin-top: 0px;
+	text-align: justify;
+}
+
+.menu-section {
+	margin-top: 70px;
+	margin-bottom: 10px;
+}
+
+.menu-bar,
+.menu-dessert,
+.menu-dinner {
+	font-size: 15px;
+	margin-bottom: 20px;
+}
+.menu-section-title {
+	font-size: 20px;
+	font-weight: lighter;
+	text-transform: uppercase;
+}
+.menu-item-title {
+	color: #28948e;
+	font-size: 15px;
+	font-weight: lighter;
+	text-transform: uppercase;
+}
+.menu-item-desc {
+	font-size: 13px;
+}
+.menu-item-pairing {
+	font-size: 10px;
+	color: grey;
+	font: Verdana, Geneva, sans-serif;
+}
+.pairing-type {
+	font-size: 13px;
+	text-transform: uppercase;
+	font-weight: lighter;
+}
+.menu-item + .menu-item {
+	margin-top: 15px;
+}
+
+.menu-item-desc,
+.menu-item-pairing {
+	font-style: italic;
+	margin: 0;
+}
+.footer-heading {
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: lighter;
+}
+.footer-text {
+	font-size: 10px;
+	font-style: italic;
+}
+
+.first {
+    -webkit-animation: bannermove 30s linear infinite;
+       -moz-animation: bannermove 30s linear infinite;
+        -ms-animation: bannermove 30s linear infinite;
+         -o-animation: bannermove 30s linear infinite;
+            animation: bannermove 30s linear infinite;
+}
+
+@keyframes "bannermove" {
+ 0% {
+    margin-left: 0px;
+ }
+ 100% {
+    margin-left: -2125px;
+ }
+
+}
+
+@-moz-keyframes bannermove {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+
+}
+
+@-webkit-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+
+}
+
+@-ms-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+
+}
+
+@-o-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
